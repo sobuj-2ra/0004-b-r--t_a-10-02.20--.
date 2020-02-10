@@ -1,0 +1,18 @@
+@extends('admin.master')
+<!--Page Title-->
+@section('page-title')
+		Search Page
+@endsection 
+
+<!--Page Header-->
+@section('page-header')
+	Search Page
+@endsection 
+
+<!--Page Content Start Here-->
+@section('page-content')
+
+
+
+@endsection 
+<!--Page Content End Here-->

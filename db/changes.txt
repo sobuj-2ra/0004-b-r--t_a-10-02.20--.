@@ -1,0 +1,73 @@
+date: 25-5-19
+--Table modifi--
+name: tbl_fp_served
+sql: ALTER TABLE tbl_fp_served MODIFY `old_passport_qty` varchar(50)
+
+--file changes--
+replace folder*
+<------ end ------->
+date: 26-5-19
+
+Changes: 
+routes: web.php
+controller: PortEndorsementController.php
+view page: portendorsement folder*
+
+tbl changes:
+table Name: menus
+INSERT INTO `menus`(`menu`, `url_link`, `parent_id`, `sub_id`, `center_type`, `created_at`, `updated_at`) VALUES ('Edit Port Endorsement', '/edit-port-endorsement',2,37,'','2019-05-26 09:28:03','')
+INSERT INTO `menus`(`menu`, `url_link`, `parent_id`, `sub_id`, `center_type`, `created_at`, `updated_at`) VALUES ('Delete Port Endorsement', '/delete_portendorsement',2,37,'','2019-05-26 09:28:03','')
+
+date : 30-05-19
+
+Optional barcode generator package added. (like as product level barcode)
+<------------ optional --------------->
+Barcode Generator package
+
+Installation
+Inside your project root directory, open your terminal-
+
+composer require peal/laravel-barcode-generator
+
+Composer will automatically download all dependencies.
+
+then After complete the installation, open your app.php from config folder, paste below line inside providers array
+
+peal\barcodegenerator\BarcodeServiceProvider::class,
+
+For Facade support, paste below line inside aliases array-
+
+'BarCode' => peal\barcodegenerator\BarCode::class,
+<------------end optional --------------->
+
+date: 01-06-19
+
+Database: No table changes.
+Work Details: Barcode added in every slip print.
+
+
+<-------------      ---------------->
+
+date: 11-06-19
+
+table change: users
+query: ALTER TABLE users MODIFY COLUMN `menu_permitted` text
+
+table change: tbl_port_update
+ALTER TABLE `tbl_port_update` CHANGE `ready@cen_by` `ready_cen_by` VARCHAR(100) DEFAULT NULL;
+ALTER TABLE `tbl_port_update` CHANGE `ready@cen_time` `ready_cen_time` datetime DEFAULT NULL;
+
+<-------------   -------------->
+date: 12-6-19
+table change: tbl_port_update
+ALTER TABLE tbl_port_update ADD delRemarks varchar(100) DEFAULT NULL
+
+table change: tbl_delete_log
+ALTER TABLE tbl_delete_log ADD delete_data text DEFAULT NULL
+
+<---------------------- >
+DATE: 25--6-19
+table change: tbl_sbi_branch
+ALTER TABLE tbl_sbi_branch ADD manager_signature VARCHAR(200) DEFAULT NULL
+
+

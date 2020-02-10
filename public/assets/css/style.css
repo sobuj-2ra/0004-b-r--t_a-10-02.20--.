@@ -1,0 +1,736 @@
+.sing_in_btn{
+background-color: #F79F1F;
+border-color: #F79F1F;
+border-radius: 0px;
+padding: 6px 22px;
+letter-spacing: 1px;
+font-size: 14px
+}
+.sing_in_btn:hover{
+background-color: #f5a839;
+border-color: #F79F1F;
+}
+.sing_in_btn:focus{
+background-color: #f5a839;
+border-color: #F79F1F;
+}
+.sing_in_btn:active{
+background-color: #f5a839;
+border-color: #F79F1F;
+}
+
+.login-logo a{
+      color: #F79F1F;
+}
+
+.login-box-msg{
+     letter-spacing: 0.5px;
+     font-size: 15px;
+     color: #000;
+}
+.forgot{
+      text-align: center;
+      letter-spacing: 1px;
+      margin-top: 8px;
+}
+.forgot a{
+      color: #000;
+}
+
+.powered{
+      text-align: center;
+      letter-spacing: 1px
+}
+
+.powered a{
+      color: #000;
+}
+
+/*Home*/
+.icon_tree_color{
+color: #F79F1F;
+}
+.page_title{
+  color: #2c3e50;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-style: italic;
+}
+.main_part{
+  background-color: #fff;
+  border: 1px solid #95afc0;
+  height: auto;
+}
+
+/*CHANGE PASSWORD*/
+.change_passport_body{
+  width: 40%;
+  margin: 0px auto;
+  padding: 15px 0px;
+  border:1px solid #ecf0f1;
+  padding: 10px;
+  border-top: 5px solid #d35400;
+  border-radius: 5px;
+}
+.form_title_center{
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #ff9700;
+  font-weight: bold;
+}
+label{
+  letter-spacing: 0.5px;
+}
+.count{
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  color: #7f8c8d;
+}
+.enter_press{
+  float: right;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ff9700;
+}
+.input_label{display:inline-block;width:26%;vertical-align:bottom;text-align: right;margin-top: 1px;}
+.input_field{display:inline-block;width:72%;vertical-align:bottom;margin-top: 5px;}
+.input_width{width: 260px}
+
+.port_title{
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ff9700;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.table_design{
+background: #ecf0f5;
+padding: 10px;
+overflow-y: scroll;
+overflow-x: scroll;
+height: 200px;
+width: 100%;
+}
+
+.table_title{
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ff9700;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+/*CUSTOM CHECKBOX*/
+.check_container {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-left: -30px;
+}
+
+/* Hide the browser's default checkbox */
+.check_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.check_container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check_container input:checked ~ .checkmark {
+  background-color: #ff9700;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.check_container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.check_container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.port{
+  width: 100%;
+  height: 300px;
+  overflow-y: scroll;
+  padding: 10px;
+  border:1px solid #bdc3c7;
+  background-color: #fff5e6;
+}
+
+.port ul{
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  width: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff9700;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff9700;
+}
+
+.counter_token_qty{
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.current_q p{
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  color: #000;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.currentQView{
+  width: 100%;
+  height: 425px;
+  border:1px solid #bdc3c7;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+.waitting_q{
+   text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  color: #000;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.waittingView{
+  width: 100%;
+  height: 200px;
+  border:1px solid #bdc3c7;
+  background-color: #ffeaa7;
+  color: #000;
+  overflow-y: scroll;
+
+}
+
+
+.recallView{
+  width: 100%;
+  height: 200px;
+  border:1px solid #bdc3c7;
+  background-color: #fff5e6;
+  color: #000;
+  margin-top: -5px;
+  overflow-y: scroll;
+}
+
+.correction{
+  width: 100%;
+  height: 300px;
+  margin: 0px auto;
+}
+
+.check_container{
+  margin: 0px auto;
+  margin-bottom: 10px;
+}
+
+.correction_list{
+  height: 200px;
+  border:1px solid #bdc3c7;
+  background-color: #fff5e6;
+  overflow-y: scroll;
+  padding: 5px;
+}
+
+.correction_list ul{
+  list-style-type: none;
+  margin-left: -35px;
+}
+
+.picture_caption{
+  width: 100%;
+  height: 300px;
+  margin: 10px auto;
+}
+
+.caption{
+  height: 200px;
+  border:1px solid #bdc3c7;
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.picture_caption button{
+  margin: 5px 60px;
+}
+.message{
+    width: 360px;
+    margin: 0 auto;
+    height: 50px;
+    background-color: #ff7979;
+    border-left: 5px solid #eb4d4b;
+    margin-top: -77px;
+    padding: 14px 10px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+#exception_message{
+  background: #ff000082;
+  width: 355px;
+  border-left: 5px solid #f90f16;
+  padding: 10px;
+  color: #fff;
+  /* font-weight: bold; */
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin: -79px auto;
+}
+.dismiss-btn{
+  cursor:pointer;
+}
+.passport_search{
+  padding: 10px;
+  width: 440px;
+  margin: 0 auto;
+}
+input[type=search]{
+  width: 300px;
+  padding: 6px;
+  border: none;
+  border: 1px solid #222d32;
+  border-radius: 2px;
+}
+
+.btn_search {
+  padding: 7px;
+    margin-top: -4px;
+    width: 100px;
+    letter-spacing: 2px;
+    background: #f39c12;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+}
+
+/*.btn_search:hover{
+  background-color: #3c8dbc;
+  color: #fff;
+}*/
+
+.result_title{
+  text-align: center;
+}
+
+.result_table{
+  padding: 30px;
+}
+.result_buttom{
+  padding: 30px;
+  margin-top: -20px;
+}
+
+.select_designation{
+  border: 1px solid #222d32;
+}
+
+.btn_approved{
+    padding: 7px;
+    margin-top: -4px;
+    width: 100px;
+    letter-spacing: 2px;
+    background: #f39c12;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    float: right;
+}
+.routearea{
+  border: 1px dashed #cccccc;
+  padding: 10px;
+  min-height: 158px;
+}
+
+
+
+
+
+.datepicker_style{
+  padding: 0px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius:0;
+  direction: ltr;
+}
+
+
+
+
+
+#page-header{
+font-size:18px;
+}
+
+.float-right{
+float:right;
+}
+.padding-none{
+padding:0px;
+}
+.bold_text{
+font-weight:bold;
+}
+
+.countercall-area{
+background: #eee;
+}
+
+.calltoken-area-right{
+position:relative;
+}
+.webfile-preloader{
+position: absolute;
+display: block;
+left:0;
+height:100%;
+width:100%;
+top:0;
+z-index: 5;
+background: #eeeeeea6;
+margin-top: -10px;
+}
+
+.webfile-preloader_big_dark{
+position: absolute;
+display: block;
+left:0;
+height:100%;
+width:100%;
+top:0;
+z-index: 9;
+background: #ecf0f5;
+margin-top: -10px;
+}
+.preloader{
+left: 0;
+right:0;
+z-index: 9999;
+margin-top: 75px;
+display: inherit;
+margin: 0 auto;
+}
+
+
+
+
+.inputBtnStyleNon{
+background: transparent;
+border: none;
+}
+.isActive{
+display: none;
+background: red;
+margin:20px;
+}
+
+
+.single-datadisplaybox-left{
+width:45%;
+float:left;
+margin:5px 0px;
+margin-left:10px;
+
+}
+.single-datadisplaybox-right{
+width:45%;
+float:right;
+margin-left:5px;
+margin:5px 0px;
+}
+.single-datadisplaybox{
+margin-bottom:20px;
+}
+.datadisplaybox-regular{
+width:100%;
+height:530px;
+background:#FFFFFF;
+border:1px solid #ddd;
+padding:10px 5px;
+overflow-x: auto;
+cursor:pointer;
+text-align:center;
+}
+.regular-area li{
+color:#000;
+list-style:none;
+}
+
+
+.datadisplaybox-waiting{
+width:100%;
+height:218px;
+background:#FFFFBF;
+border:1px solid #ddd;
+padding:10px 5px;
+overflow-x: auto;
+cursor:pointer;
+text-align:center;
+}
+
+.waiting-area li{
+color:#000;
+list-style:none;
+}
+
+
+
+.datadisplaybox-recall{
+width:100%;
+height:212px;
+background:#BFFFFF;
+border:1px solid #ddd;
+padding:10px 5px;
+overflow-x: auto;
+cursor:pointer;
+color:#FFF;
+cursor:pointer;
+text-align:center;
+}
+.recall-area li{
+color:#000;
+list-style:none;
+}
+
+
+.datadisplaybox-header{
+text-align:center;
+margin-bottom:0px;
+display: block;
+background:#FFF;
+}
+
+
+
+.calltoken-right-top .tdd-text{
+
+}
+.total-save{
+margin-left:10px;
+font-size:24px;
+font-weight:300;
+}
+.calltoken-sticker-area table tr td{
+padding-right:10px;
+}
+
+.correction-area{
+
+}
+.correction-box{
+background: #fff;
+display: inline-block;
+padding:5px 10px;
+box-sizing:border-box;
+border:1px solid #ddd;
+min-height:120px;
+min-width:182px;
+overflow: auto;
+}
+.correction-box p{
+margin:0;
+}
+.correction-box p label{
+font-weight:normal;
+}
+.reject-cause-area{
+
+}
+.reject-box {
+border: 1px solid #ddd;
+padding:5px 20px;
+
+}
+#passport_show{
+-webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
+}
+
+
+
+.webfile-submit-area{
+  margin-top:15px;
+  display: block;
+}
+
+.custom-modal-area{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0;
+  display: block;
+  z-index: 9999;
+  bottom: 0;
+  background: #00000073;
+}
+.custom-modal{
+  height:320px;
+  width:300px;
+  margin: 0 auto;
+  background:#FFF;
+  position: relative;
+  padding:10px;
+  border-radius:2px;
+  display: block;
+  margin-top:25px;
+  background: #eee;
+}
+
+.custom-modal-header{
+  position: absolute;
+  left:0;
+  top:0;
+  height:35px;
+  width:100%;
+  border-bottom:1px solid #ddd;
+  padding:2px 10px;
+  font-weight:bold;
+  font-size:18px;
+  background: transparent;
+}
+.custom-modal-body{
+  position: absolute;
+  left:0;
+  top:35px;
+  height:245px;
+  width:100%;
+  padding:5px 10px;
+  overflow: auto;
+  background: #FFF;
+}
+.custom-modal-footer{
+  position: absolute;
+  left:0;
+  bottom:0;
+  height:40px;
+  width:100%;
+  border-top:1px solid #ddd;
+  padding:2px 5px;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+
+
+
+.readyat-center-section{
+  background: #E5E7E9;
+}
+.readyat-top-left{
+  height:85px;
+  padding-top:10px;
+  padding-left:20px;
+}
+.readyat-data-info-area{
+  padding:5px 20px;
+  background: #E5E7E9;
+}
+.readyat-content-area{
+  background: #FFF;
+  padding:20px;
+}
+
+.alert-warning{
+  color: #fff;
+  background-color: #204d74;
+  border-color: #122b40;
+}
+
+
+
+
+
+
+
+
+/*   MANGE SETTING */
+.gray-back{
+ background:#f5f4f4;
+}
+.after-input-label{
+  line-height: 35px;
+}
